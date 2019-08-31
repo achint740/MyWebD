@@ -1,0 +1,52 @@
+body{
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    text-align: center;
+    color: rgba(85, 173, 12, 0.986);
+    font-family:Pacifico;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+table{
+    margin:auto;
+}
+
+td:hover {
+		border: 5px solid grey;
+	}
+
+.leftright{
+    border-left : 3px solid rgb(23, 2, 102);
+    border-right : 3px solid rgb(23, 2, 102);
+    width:150px;
+    padding-left:20px;
+    margin-left: 20px;
+    height:150px;
+}
+
+.topdown{
+    border-top : 3px solid rgb(23, 2, 102);
+    border-bottom : 3px solid rgb(23, 2, 102);
+    width:100px;
+}
+
+#specific{
+    border: 3px solid rgb(23, 2, 102);
+    width:150px;
+    height:150px;
+}
+
+audio{
+    margin-left: 42%;
+    display: none;
+    
+}
+
+h3{
+    margin-left: 45.5%;
+}

@@ -1,0 +1,36 @@
+.winner{
+    color : red;
+}
+
+body{
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 800px;
+    margin-top:  300px;
+    font-size: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+div{
+    border: 5px solid rebeccapurple;
+    margin-right: 700px;
+    margin-top: 10%;
+}
+
+input{
+    margin-left: 2%;
+}
+
+audio{
+    margin-top: 5%;
+    margin-left: 4%;
+    display: none;
+}

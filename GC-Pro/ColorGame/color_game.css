@@ -1,0 +1,65 @@
+body{
+    background-color: #232323;
+    margin : 0;
+    font-family: "Avenir";
+/*    background-image:url(Holi.jpg);*/
+}
+
+.square{
+    width: 30%;
+    background: blue;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+}
+
+#container{
+    max-width:300px;
+    margin: 0 auto;
+}
+
+h1{
+    color: red;
+    line-height: 1.1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ background-color: steelblue;
+    text-transform: uppercase;
+ text-align: center;
+ margin : 0;
+    font-weight: normal;
+}
+
+/*#msg{
+    color: red;
+}*/
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected{
+    background-color: blue;
+}
+
+#colordisplay{
+    font-size: 4000px;
+}
+
+#play{
+    display: inline-block;
+  font-size: 21px;
+}
+
+#Hard{
+    display: inline-block;
+  font-size: 21px;
+}
+
+#Ezy{
+    display: inline-block;
+  font-size: 21px;
+}
