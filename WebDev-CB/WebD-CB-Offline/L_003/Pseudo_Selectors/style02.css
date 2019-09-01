@@ -1,0 +1,90 @@
+div{
+    background-color: black;
+    color:wheat;
+    height: 20px;
+    width:100px;
+}
+
+div:hover{
+    background-color: brown;
+    font-size: 30px;
+}
+
+div:active{
+    background-color: chartreuse;
+    font-size: 10px;
+}
+
+/* focus is like for input box if we click then cursor blink starts */
+
+input:focus{
+    background-color: aqua;
+    font-size: 25px;
+}
+
+/* Empty is a pseudo class */
+
+div:empty{
+    background-color: blue;
+}
+
+/* Link is also a pseudo class */
+
+a:link{
+    color: brown;
+}
+
+a:visited{
+    color: green;
+}
+
+/* first child only child and last child  */
+
+/* span:only-child{
+    background-color: tomato;
+}
+
+li:first-child{
+    color: green;
+    background-color: yellow;
+}
+
+
+li:last-child{
+    color: green;
+    background-color: yellow;
+} */
+
+/* of type ::  an+b  b -- starting point a -- gap  */
+/* a & b can be negative  */
+
+/* n-th child  */
+/* cycle breaks in case of some other type of element by default */
+
+/* li:nth-child(2n+3){
+    background-color: blue;
+    width: 45px;
+} */
+
+/* li:nth-of-type(2n+3){
+    background-color: blue;
+    width: 45px;
+} */
+/* nth of type  */
+/* Ignores other type of elements */
+
+/* nth last child selects from last  */
+/* behaves as inverted */
+
+/* li:nth-last-child(-2n+8){
+   background-color: blue;
+   color: yellow;
+} */
+
+ /* nth-last-of-type behaves same as nth of type but just inverted starting from bottom  */
+ li:nth-last-of-type(-2n+8){
+    background-color: blue;
+    color: yellow;
+ }
+
+ 

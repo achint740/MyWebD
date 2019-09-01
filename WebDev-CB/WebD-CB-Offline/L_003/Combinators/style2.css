@@ -1,0 +1,32 @@
+/* Specificity Matters */
+
+/* greater mein immediate next level child compulsory */
+
+/* space would do it for all level descendants */
+
+/* tilde for all general siblings All bhai */
+
+/* plus for Immediate Siblings Real Bhai  */
+
+ol li{
+    color: green;
+}
+
+ul ol{
+    color: blue;
+}
+
+ul ul{
+    color: purple;
+}
+
+/* Very Imp */
+/* li~li{  
+    background-color: aqua;
+} */
+
+/* Very Imp  */
+
+/* li+li{
+    background-color: brown;
+} */

@@ -1,0 +1,26 @@
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.big{
+    font-size: 24px;
+}
+
+.small{
+    font-size: 14px;
+}
+
+#one{
+    background-color: green;
+}
+
+#two{
+    background-color: lightcyan;
+}
+
+/* *{} */   
+/* Universal Selector */
