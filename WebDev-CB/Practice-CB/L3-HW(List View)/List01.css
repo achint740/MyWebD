@@ -23,7 +23,28 @@ marquee{
     font-size: 30px;
     font-weight: bolder;
 }
-
-.dis{
+/* 
+li ul li{
     display: none;
 }
+
+li ol li{
+    display: none;
+}
+
+li:hover ul li{
+    display: block;
+} */
+
+/* li.li{
+    background-color: chartreuse;
+} */
+    li>ul{
+    display: none;
+}
+li:hover >ul{
+    display: block;
+    background-color: chartreuse;
+}
+
+
