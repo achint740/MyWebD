@@ -1,3 +1,17 @@
+function check(p){
+    for(var i=0;i<3;i++){
+    if(p[i][0] == 5 && p[i][1] == 5 && p[i][2] == 5)
+      return true;
+    if(p[0][i] == 5 && p[1][i] == 5 && p[2][i] == 5)
+      return true;
+    }
+    if(p[0][0] == 5 && p[1][1] == 5 && p[2][2] == 5)
+      return true;
+    if(p[0][2] == 5 && p[1][1] == 5 && p[2][0] == 5)
+      return true;
+    return false;
+}
+
 var p1 = new Array(3);
 for(var i=0;i<p1.length;i++){
     p1[i] = new Array(3);
@@ -13,10 +27,6 @@ for(var i=0;i<3;i++){
         p1[i][j]=-1;
         p2[i][j]=-1;
     }
-}
-
-var check(p){
-    return true;
 }
 
 var turn = 0;
@@ -112,11 +122,11 @@ $("td").on("click",function(){
                 p2[i][j]=5;
              }
          }
-        if(turn===0 && check(p1)){
+        if(turn===0 && check(p1) == true){
             gameOver=true;
             p1win=true;
         }
-        if(turn===1 && check(p2)){
+        if(turn===1 && check(p2) == true){
             gameOver=true;
             p2win=true;
         }
@@ -124,5 +134,10 @@ $("td").on("click",function(){
     });
 });
 }
+
+if(p1win == true){
+    $("h3").text("P1 won");
+}
+  
 
 
