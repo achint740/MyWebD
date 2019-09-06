@@ -12,13 +12,17 @@ h1{
     text-decoration: underline;
 }
 
+td{
+    text-align: center;
+}
+
 table{
     margin:auto;
 }
 
 td:hover {
 		border: 5px solid grey;
-	}
+}
 
 .leftright{
     border-left : 3px solid rgb(23, 2, 102);
@@ -35,18 +39,8 @@ td:hover {
     width:100px;
 }
 
-#specific{
-    border: 3px solid rgb(23, 2, 102);
-    width:150px;
-    height:150px;
-}
-
 audio{
     margin-left: 42%;
     display: none;
     
-}
-
-h3{
-    margin-left: 45.5%;
 }

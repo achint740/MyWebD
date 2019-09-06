@@ -42,15 +42,15 @@ a:visited{
 
 /* span:only-child{
     background-color: tomato;
-}
+}*/ 
 
-li:first-child{
+li:nth-of-type(2){
     color: green;
     background-color: yellow;
 }
 
 
-li:last-child{
+/*li:last-child{
     color: green;
     background-color: yellow;
 } */
@@ -82,9 +82,9 @@ li:last-child{
 } */
 
  /* nth-last-of-type behaves same as nth of type but just inverted starting from bottom  */
- li:nth-last-of-type(-2n+8){
+ /* li:nth-last-of-type(-2n+8){
     background-color: blue;
     color: yellow;
- }
+ } */
 
  
