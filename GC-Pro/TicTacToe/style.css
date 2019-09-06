@@ -42,5 +42,10 @@ td:hover {
 audio{
     margin-left: 42%;
     display: none;
-    
+}
+
+input{
+    background-color: #ec38bc;
+    height: 82px;
+    margin-right: 5%;
 }
