@@ -44,7 +44,7 @@ audio{
     display: none;
 }
 
-input{
-    background-color: #ec38bc;
-    height: 70px;
+#msg{
+    text-align: center;
+    height: 30px;
 }
