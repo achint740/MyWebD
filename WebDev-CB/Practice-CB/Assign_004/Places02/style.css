@@ -1,0 +1,22 @@
+body{
+    background-image: url(p1.jpg);
+    background-size: cover;
+}
+
+.Pa{
+    height: 500px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+    float: left;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 250px;
+    height: 300px;
+}

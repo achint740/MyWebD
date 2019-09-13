@@ -1,7 +1,9 @@
 body{
-/*    background-color: chocolate;*/
-    background-image: url(Des1.png);
-    margin-top: 30px;
+/*  background-color: chocolate;*/
+    background-image: url(../d2.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 40px;
 }
 
 /* canvas {
