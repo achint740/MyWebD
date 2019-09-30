@@ -1,0 +1,26 @@
+body{
+    background: url(img.jpeg);
+    background-size: 100%;
+}
+
+div{
+    margin-left: 42%;
+    margin-top: 25%;
+}
+
+span{
+    height: 36px;
+}
+
+h2{
+    margin-top: 10px;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: rgb(206, 53, 180);
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+}

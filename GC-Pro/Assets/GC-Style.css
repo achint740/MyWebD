@@ -1,6 +1,6 @@
 body{
 /*  background-color: chocolate;*/
-    background-image: url(../d2.png);
+    background-image: url(../d2.png); 
     background-size: cover;
     /* background-repeat: no-repeat; */
     margin-top: 40px;
@@ -32,7 +32,7 @@ div.btnbg {
 
 
 h1{
-    color:deeppink;
+    color:rgb(236, 40, 105);
     text-align: center;
     font-family: 'Special Elite', cursive;
     font-size: 55px;
