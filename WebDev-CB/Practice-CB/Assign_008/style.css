@@ -1,0 +1,23 @@
+body{
+    background-color: red;
+    padding-top:18%;
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); 
+}
+
+#m1{
+    margin-top: 20px;
+    float: right;
+}
+
+ul :first-child{
+    margin-top: 60px;
+}
+
+li{
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+    color: brown;
+}
+

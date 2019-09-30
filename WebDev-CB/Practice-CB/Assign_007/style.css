@@ -24,3 +24,7 @@ h1{
     font-family: 'Fredoka One', cursive;
     font-weight: bold;
 }
+
+button{
+    margin-left: 10px;
+}

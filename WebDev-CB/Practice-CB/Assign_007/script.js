@@ -31,14 +31,17 @@ function add2(arr){
 }
 
 $('#do').on('click',function(){
-    // alert('Connected!'); 
+    //Select the text for input...
     let text = $('#inp').val();
-    // alert("the text is : " + text);  
+    //Clear the input...
+    $('#inp').val("");  
     let arr = text.split(' ');
+    //Find the values
     let ans = add(arr);
     let ans1 = add1(arr);
     let ans2 = add2(arr);
     $('h2').css('color','green');
+    //Write the values...
     $('#rms').append(ans);
     $('#prms').append(ans1);
     $('#nrms').append(ans2);
