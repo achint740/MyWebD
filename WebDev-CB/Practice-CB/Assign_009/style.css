@@ -1,12 +1,18 @@
 body{
-    padding-top: 300px;
-    padding-left: 30%;
+    /* padding-top: 300px;
+    padding-left: 30%; */
+    margin: auto;
     background-image: url("img.jpg");
     background-size: cover;
 }
 
 h3{
     margin-top: 20px;
+}
+
+#main{
+    padding-top: 20%;
+    text-align: center;
 }
 
 button{

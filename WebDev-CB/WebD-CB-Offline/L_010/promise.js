@@ -58,14 +58,6 @@ downloadFile('http://example.com/file.mp4')
 //Script Execution not stopped
 //Catch code not written !!
 
-
-
-
-
-
-
-
-
 /*
 //Promise made using new keyword only
 
