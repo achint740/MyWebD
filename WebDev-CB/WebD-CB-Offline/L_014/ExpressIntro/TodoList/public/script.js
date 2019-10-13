@@ -1,13 +1,23 @@
+//All work to be done once 
+//site is loaded
+
 $(()=>{
     let new1 = $('#new'); //Input 
     let add1 = $('#add'); //Add Button
     let task = $('#tasklist'); //Unordered List
+    //The Refresh function makes the current todo list empty
+    //then fetches the todo array by making a request to
+    //   '/todos'
+    //Then iterates over the array and appends each item of the 
+    //array as an li to the task(ToDo List) along with 2 buttons : 
+    //1.  X --> Delete
+    //2.  U --> Update 
 
     function refresh(){
         //Make the Task List Empty
         task.empty();
         //Grab the array
-        //And append it
+        //And append each item as an li 
         $.get('/todos',(data)=>{
              for(let x of data){
                // alert(x);
