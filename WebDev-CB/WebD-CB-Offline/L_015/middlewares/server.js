@@ -19,7 +19,7 @@ function m1(req,res,next){
     if(req.query.m == 1){
         res.send('Welcome by m1');
     }
-    else
+   else
         next() //becomes conditional now
 }
 
